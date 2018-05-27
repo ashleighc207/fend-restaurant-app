@@ -14,6 +14,8 @@ a {
   display: flex;
   flex-direction: column;
   font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+  background-color: #373f51;
 }
 
 .nav-bar {
@@ -21,6 +23,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 0px 20px;
+  background-color: #373f51;
 }
 
 .menu-icon {
@@ -29,8 +32,23 @@ a {
 
 .heading-one {
   font-size: 1.6em;
+  color: #ffffff;
+}
+.heading-one a {
+  color: #ffffff;
+}
+.text {
+  font-size: .9em;
+  color: #ffffff;
 }
 
+.text-strong {
+  font-weight: 700;
+}
+
+.text a {
+  color: #ffffff;
+}
 #map {
   height: 200px;
   width: 100%;
@@ -47,3 +65,33 @@ a {
 .heading-two {
   font-size: 1.4em;
 }
+
+.option {
+  height: 40px;
+  width:  200px;
+  font-size: 1em;
+  margin: 10px 0px;
+  border: none;
+  background-color: #ffffff;
+  color: #555555;
+  outline: none;
+}
+
+.option:hover, a:hover {
+  color: #6ABEA7;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
