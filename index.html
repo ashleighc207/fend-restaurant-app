@@ -2,15 +2,21 @@
 <html>
 
 <head>
-  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <meta charset="utf-8">
+  <meta name="description" content="A fast, accessible, and offline ready app for restaurant reviews.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
   <title>Restaurant Reviews</title>
 </head>
 
 <body>
+  <div class="container"> 
   <header>
-    <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+    <nav class="nav-bar">
+      <i class="fas fa-bars menu-icon"></i>
+      <h1 class="heading-one"><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
@@ -18,9 +24,9 @@
     <section id="map-container">
       <div id="map"></div>
     </section>
-    <section>
+    <section class="filter-container">
       <div class="filter-options">
-        <h2>Filter Results</h2>
+        <h2 class="heading-two">Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
@@ -38,9 +44,9 @@
 
 
   <footer id="footer">
-    Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+    &copy; 2018 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
-
+  </div>
 </body>
 
 </html>
