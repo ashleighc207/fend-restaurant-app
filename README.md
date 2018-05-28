@@ -1,28 +1,46 @@
-# Mobile Web Specialist Certification Course
+# Front-end Nanodegree Project #5
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
+#### Resturant Reviews App
 
 ## Project Overview: Stage 1
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+Given a static design that lacks accessibility, convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
 
 ### Specification
 
 You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
 
-### What do I do from here?
+## Dependencies
+- Font Awesome
+- Google Fonts (Quicksand 300, 500, 700)
+- Google Maps API
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+## How to Use
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+Fork this respository, then clone it to your local machine. Create a simple HTTP server using Python. _Note: You do not need to know Python for this._  Check your Python version before starting by running `python -V` from the terminal.
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and make start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+#### If using Python 2
+- spin up the server with `python -m SimpleHTTPServer 8000`
 
-### Note about ES6
+#### If using Python 3
+- spin up the server with `python3 -m http.server 8000`
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
+Once the server is up and running, navigate to `localhost:8000` to see the app in action!
 
+## How to Contribute
+Found a bug or typo? Have a cool idea for functionality not currently in the game?
 
+#### Fork this repository:
+Click the Fork button in the top right
 
+#### Clone the forked repository
+**This is important because you won't be able to push your changes if you don't clone _your_ forked repository**
+Clone _your_ forked repository to your desktop by navigating to the repository, clicking the "clone or download" button, and copying the link. Then, run `git clone <YOUR CLONED REPOSITORY>`
+
+#### Commit and push your changes
+Once you make your changes, be sure to commit those changes and then push them to the repository
+
+#### Submit a pull request
+On this repository, navigate to the "Pull Requests" tab and scroll down the page until you see the green pull request button
+
+_Once a request is submitted, I will try to review it as soon as possible. Thanks for your patience!_
