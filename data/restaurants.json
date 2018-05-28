@@ -19,6 +19,7 @@
       "Saturday": "12:00 pm - 4:00 pm, 5:30 pm - 12:00 am",
       "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
     },
+    "rating": 3,
     "reviews": [{
         "name": "Steve",
         "date": "October 26, 2016",
@@ -58,6 +59,7 @@
       "Saturday": "5:00 pm - 11:30 pm",
       "Sunday": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
     },
+    "rating": 4,
     "reviews": [{
         "name": "Steph",
         "date": "October 26, 2016",
@@ -97,6 +99,7 @@
       "Saturday": "11:30 am - 6:00 am",
       "Sunday": "11:30 am - 2:00 am"
     },
+    "rating": 3.6,
     "reviews": [{
         "name": "Steve",
         "date": "October 26, 2016",
@@ -136,6 +139,7 @@
       "Saturday": "Open 24 hours",
       "Sunday": "Sat - 10:30 pm"
     },
+    "rating": 4,
     "reviews": [{
         "name": "Steve",
         "date": "October 26, 2016",
@@ -175,6 +179,7 @@
       "Saturday": "10:00 am - 12:00 am",
       "Sunday": "10:00 am - 12:00 am"
     },
+    "rating": 4,
     "reviews": [{
         "name": "Steve",
         "date": "October 26, 2016",
@@ -214,22 +219,23 @@
       "Saturday": "12:00 pm - 11:00 pm",
       "Sunday": "12:00 pm - 9:00 pm"
     },
+    "rating": 5,
     "reviews": [{
         "name": "Steve",
         "date": "October 26, 2016",
-        "rating": 4,
+        "rating": 5,
         "comments": "Barbecue aficionados agree that Billy Durney is cooking up some of the best Texas-style barbecue in the city. Straightforward classics like smoked brisket and baby back ribs are always a strong choice, but there are also options like pork belly tacos and a lamb belly banh mi. The space is sprawling in a way that feels like the real deal, and Durney himself can usually be found working the room, and keeping a watchful eye on the smoking meats. It's counter service only, and there's often a line, but for the scene and certainly for the meat, it's easily worth the trip to Red Hook."
       },
       {
         "name": "Michelle",
         "date": "October 26, 2016",
-        "rating": 4,
+        "rating": 5,
         "comments": "Overall, a great try of New York BBQ. The restaurant décor is rustic with a good amount of seats to sit and enjoy the meal. I definitely would love to come back and try that monster of a beef rib!"
       },
       {
         "name": "Ai-Mei",
         "date": "October 26, 2016",
-        "rating": 4,
+        "rating": 5,
         "comments": "mmmmmm, what a gem this is in bklyn! I loveeee how soft their brisket is here. Their pork tacos are to die for, their different variety of ribs and lastly, their lamb is not gamey at all. Super wallet friendly for the amount they give you. I highly recommend this spot- after eating here, you can definitely walk over for Steve's key lime pies."
       }
     ]
@@ -253,6 +259,7 @@
       "Saturday": "11:30 am - 10:00 pm",
       "Sunday": "11:30 am - 10:00 pm"
     },
+    "rating": 4,
     "reviews": [{
         "name": "Steve",
         "date": "October 26, 2016",
@@ -292,6 +299,7 @@
       "Saturday": "10:00 am - 3:00 pm, 5:30 pm - 11:30 pm",
       "Sunday": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
     },
+    "rating": 4,
     "reviews": [{
         "name": "Steve",
         "date": "October 26, 2016",
@@ -331,6 +339,7 @@
       "Saturday": "5:00 pm - 11:00 pm",
       "Sunday": "5:00 pm - 10:00 pm"
     },
+    "rating": 4,
     "reviews": [{
         "name": "Steve",
         "date": "October 26, 2016",
@@ -370,6 +379,7 @@
       "Saturday": "11:00 am - 12:00 am",
       "Sunday": "11:00 am - 12:00 am"
     },
+    "rating": 3,
     "reviews": [{
         "name": "Steve",
         "date": "October 26, 2016",

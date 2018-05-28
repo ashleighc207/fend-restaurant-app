@@ -81,6 +81,21 @@ class DBHelper {
       }
     });
   }
+  /**
+   * Fetch restaurants by rating with proper error handling.
+   */
+  static fetchRestaurantByRating(neighborhood, callback) {
+    // Fetch all restaurants
+    DBHelper.fetchRestaurants((error, restaurants) => {
+      if (error) {
+        callback(error, null);
+      } else {
+        // Filter restaurants to have only given rating
+        const results = restaurants.filter(r => r.neighborhood == neighborhood && r.rating == 4);
+        callback(null, results);
+      }
+    });
+  }
 
   /**
    * Fetch restaurants by a cuisine and a neighborhood with proper error handling.

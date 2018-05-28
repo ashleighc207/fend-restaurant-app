@@ -107,6 +107,25 @@ updateRestaurants = () => {
 }
 
 /**
+ * Update top restaurants page and map for current restaurants.
+ */
+updateRestaurantsTop = () => {
+
+  const nSelect = document.getElementById('neighborhoods-select');
+  const nIndex = nSelect.selectedIndex;
+  const neighborhood = nSelect[nIndex].value; 
+
+  DBHelper.fetchRestaurantByRating(neighborhood, (error, restaurants) => {
+    if (error) { // Got an error!
+      console.error(error);
+    } else {
+      resetRestaurants(restaurants);
+      fillRestaurantsHTML();
+    }
+  });
+};
+
+/**
  * Clear current restaurants, their HTML and remove their map markers.
  */
 resetRestaurants = (restaurants) => {
