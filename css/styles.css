@@ -10,9 +10,17 @@ a {
 }
 ul {
   list-style-type: none;
-  padding:  none;
+  padding: 0;
 }
-
+h4, h6 {
+  margin: 1% 0%;
+}
+h6 {
+  font-style: italic;
+}
+h4 {
+  color: #6abea7;
+}
 .container {
   font-size: 16px;
   display: flex;
@@ -77,11 +85,25 @@ ul {
   text-align: center;
 }
 
-.heading-two {
+.heading-two, h2 {
   font-size: 1.4em;
   font-weight: 500;
   color: #6abea7;
 }
+.title {
+  font-size: 1.4em;
+  font-weight: 500;
+  color: #6abea7;
+  margin-right: 10px;
+  width: 100%
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 2%;
+}
+
 
 .option {
   height: 40px;
@@ -114,6 +136,25 @@ a:hover {
 }
 .link {
   color: #ffffff;
+}
+
+#restaurant-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#restaurant-img {
+  max-width: 100%;
+}
+
+#reviews-list {
+  margin: 0% 5%;
+}
+
+
+#reviews-container {
+  margin: 0% 2%;
 }
 
 @media screen and (min-width: 600px) {
