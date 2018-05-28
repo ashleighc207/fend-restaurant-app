@@ -5,7 +5,7 @@ body, html {
 }
 
 a {
-  color: initial;
+  color: #ffffff;
   text-decoration: none;
 }
 ul {
@@ -147,14 +147,26 @@ a:hover {
 #restaurant-img {
   max-width: 100%;
 }
+.restaurant-img {
+  max-width:  100%;
+}
 
 #reviews-list {
   margin: 0% 5%;
 }
 
-
 #reviews-container {
   margin: 0% 2%;
+}
+
+#restaurants-list li {
+  margin: 2% 0%;
+}
+
+.about-text {
+  width: 80%;
+  margin: auto;
+  font-size: 2em;
 }
 
 @media screen and (min-width: 600px) {
