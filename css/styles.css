@@ -8,6 +8,10 @@ a {
   color: initial;
   text-decoration: none;
 }
+ul {
+  list-style-type: none;
+  padding:  none;
+}
 
 .container {
   font-size: 16px;
@@ -18,9 +22,10 @@ a {
   color: #ffffff;
   background-color: #373f51;
   min-height: 100vh;
+  font-weight: 300;
 }
 
-.nav-bar {
+.nav-bar-restaurant, .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,17 +33,28 @@ a {
   background-color: #373f51;
 }
 
+
 .menu-icon {
+  font-size: 1.5em;
+}
+.back-icon {
   font-size: 1.5em;
 }
 
 .heading-one {
   font-size: 1.6em;
-  color: #ffffff;
+  color: #6abea7;
+  font-weight: 500;
 }
+
 .heading-one a {
-  color: #ffffff;
+  color: #6abea7;
 }
+
+.text-accent, .text-accent a {
+  color:  #6abea7;
+}
+
 .text {
   font-size: .9em;
   color: #ffffff;
@@ -48,13 +64,10 @@ a {
   font-weight: 700;
 }
 
-.text a {
-  color: #ffffff;
-}
 #map {
   height: 200px;
   width: 100%;
-  background-color: #ccc;
+  background-color: #cccccc;
 }
 
 .filter-container {
@@ -66,6 +79,8 @@ a {
 
 .heading-two {
   font-size: 1.4em;
+  font-weight: 500;
+  color: #6abea7;
 }
 
 .option {
@@ -75,12 +90,18 @@ a {
   margin: 10px 0px;
   border: none;
   background-color: #ffffff;
-  color: #555555;
+  color: #373f51;
   outline: none;
+  font-weight: 500;
+  text-shadow: 5px #cccccc;
 }
 
-.option:hover, a:hover {
-  color: #6ABEA7;
+.option:hover {
+  color: #6abea7;
+}
+
+a:hover {
+  color: #6abea7;
 }
 
 #footer {
@@ -88,10 +109,55 @@ a {
   justify-content: center;
   margin-bottom: 5%;
 }
+.nav-links {
+  display: none;
+}
+.link {
+  color: #ffffff;
+}
 
+@media screen and (min-width: 600px) {
+  #map {
+    height: 400px;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .heading-one {
+    margin: 2%;
+  }
+  .nav-bar {
+    justify-content: center;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-links a {
+    color: #ffffff;
+    margin: 2%;
+  }
+  .nav-links li {
+    margin: 1%;
+  }
+  .bullet {
+    color: #6abea7;
+  }
+  a:hover {
+    color: #6abea7;
+  }
+}
 
-
-
+@media screen and (min-width: 800px){
+  body {
+    background-color: #6abea7;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+}
 
 
 
