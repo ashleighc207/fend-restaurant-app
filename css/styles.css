@@ -13,6 +13,7 @@ a {
   font-size: 16px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   font-family: 'Quicksand', sans-serif;
   color: #ffffff;
   background-color: #373f51;
