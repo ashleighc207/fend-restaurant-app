@@ -91,7 +91,7 @@ class DBHelper {
         callback(error, null);
       } else {
         // Filter restaurants to have only given rating
-        const results = restaurants.filter(r => r.neighborhood == neighborhood && r.rating == 4);
+        const results = restaurants.filter(r => r.neighborhood == neighborhood && rating == 4);
         callback(null, results);
       }
     });
