@@ -118,9 +118,11 @@ updateRestaurantsTop = () => {
   DBHelper.fetchRestaurantByRating(neighborhood, (error, restaurants) => {
     if (error) { // Got an error!
       console.error(error);
-    } else {
+    } else if(restaurants.rating >= 4) {
       resetRestaurants(restaurants);
       fillRestaurantsHTML();
+    } else {
+      console.log('No restaurants rated 4 or above');
     }
   });
 };
