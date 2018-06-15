@@ -51,11 +51,12 @@ fetchRestaurantFromURL = (callback) => {
 fillRestaurantHTML = (restaurant = self.restaurant) => {
   const name = document.getElementById('restaurant-name');
   name.innerHTML = restaurant.name;
-  name.className = 'restaurant-name'
+
+  const rating = document.getElementById('restaurant-rating');
+  rating.innerHTML = restaurant.rating;
 
   const address = document.getElementById('restaurant-address');
   address.innerHTML = restaurant.address;
-  address.className = 'restaurant-add'
 
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
@@ -63,7 +64,6 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
-  cuisine.className = 'restaurant-cuisine'
 
   // fill operating hours
   if (restaurant.operating_hours) {
@@ -80,17 +80,13 @@ fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => 
   const hours = document.getElementById('restaurant-hours');
   for (let key in operatingHours) {
     const row = document.createElement('tr');
-    row.className = 'hours-row'
 
     const day = document.createElement('td');
     day.innerHTML = key;
-    day.className = 'hours-day';
     row.appendChild(day);
-    
 
     const time = document.createElement('td');
     time.innerHTML = operatingHours[key];
-    time.className = 'hours-time'
     row.appendChild(time);
 
     hours.appendChild(row);
@@ -104,13 +100,11 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   const container = document.getElementById('reviews-container');
   const title = document.createElement('h2');
   title.innerHTML = 'Reviews';
-  title.className = 'reviews-title'
   container.appendChild(title);
 
   if (!reviews) {
     const noReviews = document.createElement('p');
     noReviews.innerHTML = 'No reviews yet!';
-    noReviews.className = 'no-reveiws-text'
     container.appendChild(noReviews);
     return;
   }
@@ -128,17 +122,14 @@ createReviewHTML = (review) => {
   const li = document.createElement('li');
   const name = document.createElement('h4');
   name.innerHTML = review.name;
-  name.className = 'review-name'
   li.appendChild(name);
 
   const date = document.createElement('h6');
   date.innerHTML = review.date;
-  date.className = 'review-date'
   li.appendChild(date);
 
   const rating = document.createElement('h4');
   rating.innerHTML = `Rating: ${review.rating}`;
-  rating.className = 'rating'
   li.appendChild(rating);
 
   const hr = document.createElement('hr');
@@ -146,7 +137,6 @@ createReviewHTML = (review) => {
 
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;
-  comments.className = 'comments'
   li.appendChild(comments);
 
   return li;
