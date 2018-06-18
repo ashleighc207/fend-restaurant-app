@@ -12,13 +12,12 @@
   </head>
   <body>
     <div class="container">
-      <div>
+            <div>
         <header class="header">
           <nav class="nav-bar">
             <i class="fas fa-bars menu-icon"></i>
             <h1 class="heading-one"><a href="/">Foodie <i class="fas fa-utensils"></i>
-
-</a></h1>
+            </a></h1>
           </nav>
           <nav class="nav-links">
             <a href="./about.html">About</a>
@@ -28,21 +27,24 @@
             <a href="./social.html">Social</a>
           </nav>
         </header>
-        <main id="maincontent">
-          <section id="map-container">
-            <div id="map"></div>
-          </section>
-          <section class="filter-container">
-            <div class="filter-options">
+        <div class="filter-container">
+          <div class="filter-options">
               <h2 class="heading-two">Filter Results</h2>
-              <select id="neighborhoods-select" class="option" name="neighborhoods" onchange="updateRestaurantsTop()">
+              <select id="neighborhoods-select" class="option" name="neighborhoods" onchange="updateRestaurants()">
                 <option value="all">Neighborhood</option>
               </select>
-              <select id="cuisines-select" class="option" name="cuisines" onchange="updateRestaurantsTop()">
+              <select id="cuisines-select" class="option" name="cuisines" onchange="updateRestaurants()">
                 <option value="all">Cuisine</option>
               </select>
             </div>
-          <ul id="restaurants-list"></ul>
+        </div>
+        <section id="map-container">
+            <div id="map"></div>
+          </section>
+        <main id="maincontent">
+          <section class="restaurants-container">
+            <div id="restaurants-list">
+            </div>
         </section>
       </main>
     </div>
