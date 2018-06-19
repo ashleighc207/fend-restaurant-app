@@ -1,402 +1,402 @@
 {
   "restaurants": [{
     "id": 1,
-    "name": "Mission Chinese Food",
-    "neighborhood": "Manhattan",
-    "photograph": "1.jpg",
-    "address": "171 E Broadway, New York, NY 10002",
+    "name": "Sushi King",
+    "rating": 4.7,
+    "neighborhood": "Columbia",
+    "photograph": "sushi-king.jpg",
+    "address": "6490 Dobbin Rd, Columbia, MD 21045",
     "latlng": {
-      "lat": 40.713829,
-      "lng": -73.989667
+      "lat": 39.192702,
+      "lng": -76.820526
     },
     "cuisine_type": "Asian",
     "operating_hours": {
-      "Monday": "5:30 pm - 11:00 pm",
-      "Tuesday": "5:30 pm - 12:00 am",
-      "Wednesday": "5:30 pm - 12:00 am",
-      "Thursday": "5:30 pm - 12:00 am",
-      "Friday": "5:30 pm - 12:00 am",
-      "Saturday": "12:00 pm - 4:00 pm, 5:30 pm - 12:00 am",
-      "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
+      "Monday": "11:30 am - 3:00 pm, 5:00 pm - 10:00 pm",
+      "Tuesday": "11:30 am - 3:00 pm, 5:00 pm - 10:00 pm",
+      "Wednesday": "11:30 am - 3:00 pm, 5:00 pm - 10:00 pm",
+      "Thursday": "11:30 am - 3:00 pm, 5:00 pm - 10:00 pm",
+      "Friday": "11:30 am - 3:00 pm, 5:00 pm - 10:00 pm",
+      "Saturday": "11:30 am - 3:00 pm, 5:00 pm - 10:00 pm",
+      "Sunday": "Closed"
     },
-    "rating": 3,
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Mission Chinese Food has grown up from its scrappy Orchard Street days into a big, two story restaurant equipped with a pizza oven, a prime rib cart, and a much broader menu. Yes, it still has all the hits — the kung pao pastrami, the thrice cooked bacon —but chef/proprietor Danny Bowien and executive chef Angela Dimayuga have also added a raw bar, two generous family-style set menus, and showstoppers like duck baked in clay. And you can still get a lot of food without breaking the bank."
+        "name": "Will S.",
+        "date": "June 8th, 2018",
+        "rating": 5,
+        "comments": "Always a solid choice. Favorite sushi place in Columbia. Great food and super friendly staff. Try the Dobin Mushi soup. And the Happy Together and Samurai roll are both incredible."
       },
       {
-        "name": "Morgan",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "This place is a blast. Must orders: GREEN TEA NOODS, sounds gross (to me at least) but these were incredible!, Kung pao pastrami (but you already knew that), beef tartare was a fun appetizer that we decided to try, the spicy ma po tofu SUPER spicy but delicous, egg rolls and scallion pancake i could have passed on... I wish we would have gone with a larger group, so much more I would have liked to try!"
+        "name": "Nhu P.",
+        "date": "June 7th, 2018",
+        "rating": 5,
+        "comments": "Sushi king is still my fave sushi spot of all time! I know there are plenty of sushi restaurants around the way but their quality of freshness, impeccable service, and unbelievable hospitality and ambiance is hard to come by. Their nigiri is fresh, nicely portioned and delicious! Their rolls are creative, tasty and don't skimp on the fish."
       },
       {
-        "name": "Jason",
-        "date": "October 26, 2016",
-        "rating": 3,
-        "comments": "I was VERY excited to come here after seeing and hearing so many good things about this place. Having read much, I knew going into it that it was not going to be authentic Chinese. The place was edgy, had a punk rock throwback attitude, and generally delivered the desired atmosphere. Things went downhill from there though. The food was okay at best and the best qualities were easily overshadowed by what I believe to be poor decisions by the kitchen staff."
+        "name": "Bryant P.",
+        "date": "June 7th, 2018",
+        "rating": 5,
+        "comments": "I don't have words to describe how much this place means to me. The staff is so gracious and kind, seriously you guys rock! The sushi is fresh and delicious ALWAYS! I was sitting in another (overpriced) Annapolis location sushi restaurant and after looking at the menu I got up and drove to Sushi King no lie. This place is that good!"
       }
     ]
   }, {
     "id": 2,
-    "name": "Emily",
-    "neighborhood": "Brooklyn",
-    "photograph": "2.jpg",
-    "address": "919 Fulton St, Brooklyn, NY 11238",
+    "name": "Royal Taj",
+    "neighborhood": "Columbia",
+    "photograph": "royal-taj.jpg",
+    "address": "8335 Benson Dr, Columbia, MD 21045",
     "latlng": {
-      "lat": 40.683555,
-      "lng": -73.966393
+      "lat": 39.186272,
+      "lng": -76.801053
     },
-    "cuisine_type": "Pizza",
+    "cuisine_type": "Indian",
     "operating_hours": {
-      "Monday": "5:30 pm - 11:00 pm",
-      "Tuesday": "5:30 pm - 11:00 pm",
-      "Wednesday": "5:30 pm - 11:00 pm",
-      "Thursday": "5:30 pm - 11:00 pm",
-      "Friday": "5:30 pm - 11:00 pm",
-      "Saturday": "5:00 pm - 11:30 pm",
-      "Sunday": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
+      "Monday": "11:30 am - 2:30 pm, 5:00 pm - 10:00 pm",
+      "Tuesday": "11:30 am - 2:30 pm, 5:00 pm - 10:00 pm",
+      "Wednesday": "11:30 am - 2:30 pm, 5:00 pm - 10:00 pm",
+      "Thursday": "11:30 am - 2:30 pm, 5:00 pm - 10:00 pm",
+      "Friday": "11:30 am - 2:30 pm, 5:00 pm - 10:00 pm",
+      "Saturday": "11:30 am - 2:30 pm, 5:00 pm - 10:00 pm",
+      "Sunday": "11:30 pm - 3:00 pm, 5:00 pm - 10:00 pm"
     },
-    "rating": 4,
+    "rating": 4.7,
     "reviews": [{
-        "name": "Steph",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Five star food, two star atmosphere. I would definitely get takeout from this place - but dont think I have the energy to deal with the hipster ridiculousness again. By the time we left the wait was two hours long."
-      },
-      {
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "This cozy Clinton Hill restaurant excels at both straightforward and unusual wood-fired pizzas. If you want a taste of the latter, consider ordering the Emily, which is topped with mozzarella, pistachios, truffled sottocenere cheese, and honey. The menu includes salads and a handful of starters, as well as a burger that some meat connoisseurs consider to be among the best in the city."
-      },
-      {
-        "name": "Sam",
-        "date": "October 26, 2016",
+        "name": "Farrah B.",
+        "date": "June 4th, 2018",
         "rating": 5,
-        "comments": "5 star atmosphere as it is very cozy with great staff. 5 star food as their Emmy burger is outrageously good. and its on a pretzel bun.. Too juicy for its own good and downright addicting. Also try the Colony pizza. Many others looked like worth competitors, but the Colony really found its way to my heart. when you start with a great crust, top it with top notch cheese and sauce, you've got a winner. But, if you go a step further and add the salty from the pepperoni, the sweet from the honey, and the spicy from the chili oil.... your mouth is confused and happy at the same time."
+        "comments": "Wonderful place to get Indian food.  Very classy looking interior, very courteous staff, and extremely delicious food.  They had a numerous selection of dishes for the lunch buffet.  A little bit pricier than other Indian food buffets I've been to, but I'd gladly go here instead than anywhere else.  Definitely worth a visit."
+      },
+      {
+        "name": "Ems",
+        "date": "June 16th, 2018",
+        "rating": 5,
+        "comments": "By far, the best!! Superior, personal service, superb Indian cuisine, elegant atmosphere... An absolutely wonderful dining experience! We've been dining at 'The Taj' for six years. Having braved the competition, there is absolutely no substitute!"
+      },
+      {
+        "name": "Nathan W.",
+        "date": "May 19th, 2018",
+        "rating": 5,
+        "comments": "This is by far the best Indian restaurant I have been to. Right from the start, the employees are friendly and get you seated, they stop by frequently to check on you, and make you feel at home. The food is amazing. The food here will leave you wanting more - even as the buttons are bursting on your shirt. They have a great selection of drinks as well. The manager is really friendly and truly cars about the guests visiting the restaurant. All in all, well worth the money and visit."
       }
     ]
   }, {
     "id": 3,
-    "name": "Kang Ho Dong Baekjeong",
-    "neighborhood": "Manhattan",
-    "photograph": "3.jpg",
-    "address": "1 E 32nd St, New York, NY 10016",
+    "name": "Honey Pig",
+    "neighborhood": "Ellicott City",
+    "photograph": "honey-pig.jpg",
+    "address": "10045 Baltimore National Pike, Ellicott City, MD 21042",
     "latlng": {
-      "lat": 40.747143,
-      "lng": -73.985414
+      "lat": 39.278245,
+      "lng": -76.859215
     },
     "cuisine_type": "Asian",
     "operating_hours": {
-      "Monday": "11:30 am - 2:00 am",
-      "Tuesday": "11:30 am - 2:00 am",
-      "Wednesday": "11:30 am - 2:00 am",
-      "Thursday": "11:30 am - 2:00 am",
-      "Friday": "11:30 am - 6:00 am",
-      "Saturday": "11:30 am - 6:00 am",
-      "Sunday": "11:30 am - 2:00 am"
+      "Monday": "10:00 am - 4:00 am",
+      "Tuesday": "10:00 am - 4:00 am",
+      "Wednesday": "10:00 am - 4:00 am",
+      "Thursday": "10:00 am - 4:00 am",
+      "Friday": "10:00 am - 4:00 am",
+      "Saturday": "10:00 am - 4:00 am",
+      "Sunday": "10:00 am - 2:00 am"
     },
-    "rating": 3.6,
+    "rating": 4.4,
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
+        "name": "Zachary B.",
+        "date": "June 12th, 2018",
         "rating": 4,
-        "comments": "The tables at this 32nd Street favorite are outfitted with grills for cooking short ribs, brisket, beef tongue, rib eye, and pork jowl. The banchan plates are uniformly good, and Deuki Hong’s menu also includes winning dishes like stir-fried squid noodles, kimchi stew, and seafood pancakes. If it’s available, make sure to order the kimchi and rice “lunchbox.” Baekjeong is a great place for large groups and birthday parties."
+        "comments": "A unique and genuine Korean experience. I spent about a month in Pusan and Honey Pig almost convinced me I was back. I visited the restaurant years ago and I was far from impressed. Though the decorations and layout don't seem to have changed, the service has improved massively.Our waitress was excellent, the serving sizes were appropriate for the prices and the overall experience was pleasant. I would definitely recommend Honey Pig, especially if you are looking for a good place to eat late at night."
       },
       {
-        "name": "ZS",
-        "date": "October 26, 2016",
+        "name": "Anna I.",
+        "date": "June 19th, 2018",
+        "rating": 1,
+        "comments": "I like trying new things. If I like them, I buy them or go back again. If I don't, then there's no repeat. For this place, I am not coming back. It's because I strongly feel that the food is overpriced compared to its taste or quality. 16.99 for 3 pieces of pork belly that's just a little over the size of bacon pieces.3 of us paid over $80! The food does not taste great. But if I'm paying so much for the food, I expect it to be somehow phenomenal but it isn't. And the workers don't smile. I'm so used to American service where most workers are friendly and will make sure customers are happy. Not just deliver items and just pay us and get out of here so we can serve the next paying customer."
+      },
+      {
+        "name": "Tina L.",
+        "date": "April 19th, 2018",
         "rating": 5,
-        "comments": "I've been to Korea before and many other Korean BBQ places. We had the regular pork belly and a beef (forgot which cut) and a seafood tofu soup. Two meat and a soup was just prefect for the two of us. We could have done one meat and one soup. The portions of the meat are great! The beef was juicy, tender and so good. The sides were excellent. "
-      },
-      {
-        "name": "Emily",
-        "date": "October 26, 2016",
-        "rating": 2,
-        "comments": "MEH. I've tried their Jersey location as well but Kang Ho Dong meat quality is severely decreasing. A Korean bbq place with whatever meat? I think NOT!"
+        "comments": "This is one of my favorite restaurants in the area. The food is good, plentiful, and comes out pretty quickly. I'm typically not a big meat either,  but I do like what they prepare. Even though vegetarians I know can find something on the menu, though you do leave smelling like meat. I especially love their steamed egg. On the walls are televisions with continual loops of K-Pop videos. Typically the kids we bring with us I'm the very distracting and we can stay there longer than a lot of other restaurants."
       }
     ]
   }, {
     "id": 4,
-    "name": "Katz's Delicatessen",
-    "neighborhood": "Manhattan",
-    "photograph": "4.jpg",
-    "address": "205 E Houston St, New York, NY 10002",
+    "name": "Gino's Burgers and Chicken",
+    "neighborhood": "Towson",
+    "photograph": "ginos.jpg",
+    "address": "8600 Lasalle Rd #250C, Towson, MD 21286",
     "latlng": {
-      "lat": 40.722216,
-      "lng": -73.987501
+      "lat": 39.395838,
+      "lng": -76.577552
     },
     "cuisine_type": "American",
     "operating_hours": {
-      "Monday": "8:00 am - 10:30 pm",
-      "Tuesday": "8:00 am - 10:30 pm",
-      "Wednesday": "8:00 am - 10:30 pm",
-      "Thursday": "8:00 am - 2:30 am",
-      "Friday": "8:00 am - Sat",
-      "Saturday": "Open 24 hours",
-      "Sunday": "Sat - 10:30 pm"
+      "Monday": "11:00 am - 10:00 pm",
+      "Tuesday": "11:00 am - 10:00 pm",
+      "Wednesday": "11:00 am - 10:00 pm",
+      "Thursday": "11:00 am - 10:00 am",
+      "Friday": "11:00 am - 10:00 pm",
+      "Saturday": "11:00 am - 10:00 pm",
+      "Sunday": "11:00 am - 10:00 pm"
     },
-    "rating": 4,
+    "rating": 4.3,
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
+        "name": "Dahlia P.",
+        "date": "March 19th, 2018",
         "rating": 5,
-        "comments": "In 127 years, little has changed at Katz's. It remains one of New York's — and the country's — essential Jewish delicatessens. Every inch of the massive Lower East Side space smells intensely of pastrami and rye loaves. The sandwiches are massive, so they are best when shared. Order at the counter, and don't forget to tip your slicer — your sandwich will be better for it."
+        "comments": "For me, this is stepping into the past when fast food used to be decent food served quickly. Gino's still gets it done all these years later. The Giant is a bit large for me so I go with the Junior and get what I remember, and just as good as always. The shakes are truly delightful and the fries quite good. If you remember the old Gino's or just want a new burger place, come here. It's worth the trip."
       },
       {
-        "name": "Allen",
-        "date": "October 26, 2016",
+        "name": "Cynthia M.",
+        "date": "June 15th, 2018",
         "rating": 5,
-        "comments": "If I lived in NY and got diabetes from eating here every single time I ate, I would do it over and over and over again just for that first bite. These guys know how to make a sandwich. The heart attack comes free of charge! Came by while I was visiting NYC. First pit-stop when I come back :)!"
+        "comments": "Food and prices are not too bad.  Milkshakes are great.  Prices are  reasonable.  Service great."
       },
       {
-        "name": "David",
-        "date": "October 26, 2016",
-        "rating": 2,
-        "comments": "Ok so four of us came. One more later who didn't order becauase it's so expensive and simple. Seriously, a bunch of meat albeit you can sample beforehand on rye/white/wheat bread. Cheese extra. Pickles free, you can just ask them at the pickup counter. But seriously 20 bucks gone for an non-flavored half sandwich. And a line that is long, especially if you want seating. I'm down to just take a quick look where Sally and Harry sat and leave to the other delis all around NYC. Oh and they accept Samsung pay."
+        "name": "Kail H.",
+        "date": "June 12th, 2018",
+        "rating": 5,
+        "comments": "The most awsome milkshakes I've ever had.  Really.  Everything else is good. A bit pricey,  but cool service and totally worth it."
       }
     ]
   }, {
     "id": 5,
-    "name": "Roberta's Pizza",
-    "neighborhood": "Brooklyn",
-    "photograph": "5.jpg",
-    "address": "261 Moore St, Brooklyn, NY 11206",
+    "name": "Pizza Sauce",
+    "neighborhood": "Parkville",
+    "photograph": "pizza-sauce.jpg",
+    "address": "3301 E Joppa Rd, Parkville, MD 21234",
     "latlng": {
-      "lat": 40.705089,
-      "lng": -73.933585
+      "lat": 39.394529,
+      "lng": -76.514387
     },
     "cuisine_type": "Pizza",
     "operating_hours": {
-      "Monday": "11:00 am - 12:00 am",
-      "Tuesday": "11:00 am - 12:00 am",
-      "Wednesday": "11:00 am - 12:00 am",
-      "Thursday": "11:00 am - 12:00 am",
-      "Friday": "11:00 am - 12:00 am",
-      "Saturday": "10:00 am - 12:00 am",
-      "Sunday": "10:00 am - 12:00 am"
+      "Monday": "7:00 am - 10:00 pm",
+      "Tuesday": "7:00 am - 10:00 pm",
+      "Wednesday": "7:00 am - 10:00 pm",
+      "Thursday": "7:00 am - 10:00 pm",
+      "Friday": "7:00 am - 11:00 pm",
+      "Saturday": "9:00 am - 11:00 pm",
+      "Sunday": "9:00 am - 10:00 pm"
     },
-    "rating": 4,
+    "rating": 4.3,
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Roberta's is the epicenter of the modern Brooklyn food scene.The pizzas are fantastic, but the restaurant really flexes its muscles with the vegetable dishes. In addition to the pies, consider ordering the radishes, the romaine salad, the roasted beets, and some of the charcuterie."
+        "name": "Jessica J.",
+        "date": "June 12th, 2018",
+        "rating": 2,
+        "comments": "I usually get pretty good food here, but this time the team here was laughing and joking do much that they gave my food to another person. Then they just put pepperoni on top of a cheese pizza and put it in the over for a few mins and gave it to me saying it was a remade pizza. I could tell it wasn’t remade because the pepperonis were just on top and it was baked longer that the sauce was dried up. I never had device like that from them and was very disappointed! Feel like they should care more about the customers. Was very unsatisfied and May never go back! He gave me $1 off for that pizza it wasn’t worth any money! I will seriously think twice before I go back!"
       },
       {
-        "name": "Raymond",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Roberta's, one of the better pizzas I have had in my life. Very trendy and hipsterish spot. Came here for lunch on a random weekday afternoon and when we arrived, there was a line forming already. The space is a bit cramped. You'll get to know your neighbors soon enough. The pizza is just delightful and delicious. It's a ncie plus that you get to see them firing up the pizzas in the corner. The major issue with Roberta's is the trek out to the Williamsburg/Bushwick."
+        "name": "Stephanie B,",
+        "date": "May 28th, 2018",
+        "rating": 5,
+        "comments": "Really good food. Fast, friendly service. My favorite are the old bay chicken wings. The best so far."
       },
       {
-        "name": "Laurel",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "The pizza is fantastic, not THE best I've ever had, but would definitely go back since it has great food and great ambiance. Definitely worth going to. It has A LOT of hype in the New York food scene, and I question if it deserves all of it, but it's still a totally great spot to hit up when in the area!!"
+        "name": "Maria C.",
+        "date": "June 15th, 2018",
+        "rating": 5,
+        "comments": "Excellent customer service , really friendly and care about the customer. Good food all the time"
       }
     ]
   }, {
     "id": 6,
-    "name": "Hometown BBQ",
-    "neighborhood": "Brooklyn",
-    "photograph": "6.jpg",
-    "address": "454 Van Brunt St, Brooklyn, NY 11231",
+    "name": "Pho Pasteur",
+    "neighborhood": "Catonsville",
+    "photograph": "pho-pasteur.jpg",
+    "address": "710 N Rolling Rd, Catonsville, MD 21228",
     "latlng": {
-      "lat": 40.674925,
-      "lng": -74.016162
+      "lat": 39.282360,
+      "lng": -76.755483
     },
-    "cuisine_type": "American",
+    "cuisine_type": "Viatnamese",
     "operating_hours": {
-      "Monday": "Closed",
-      "Tuesday": "12:00 pm - 10:00 pm",
-      "Wednesday": "12:00 pm - 10:00 pm",
-      "Thursday": "12:00 pm - 10:00 pm",
-      "Friday": "12:00 pm - 11:00 pm",
-      "Saturday": "12:00 pm - 11:00 pm",
-      "Sunday": "12:00 pm - 9:00 pm"
+      "Monday": "10:00 am - 9:00 pm",
+      "Tuesday": "10:00 am - 9:00 pm",
+      "Wednesday": "10:00 am - 9:00 pm",
+      "Thursday": "10:00 am - 9:00 pm",
+      "Friday": "10:00 am - 9:00 pm",
+      "Saturday": "10:00 am - 9:00 pm",
+      "Sunday": "10:00 am - 9:00 pm"
     },
-    "rating": 5,
+    "rating": 4.6,
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
+        "name": "Emily",
+        "date": "May 19th, 2018",
         "rating": 5,
-        "comments": "Barbecue aficionados agree that Billy Durney is cooking up some of the best Texas-style barbecue in the city. Straightforward classics like smoked brisket and baby back ribs are always a strong choice, but there are also options like pork belly tacos and a lamb belly banh mi. The space is sprawling in a way that feels like the real deal, and Durney himself can usually be found working the room, and keeping a watchful eye on the smoking meats. It's counter service only, and there's often a line, but for the scene and certainly for the meat, it's easily worth the trip to Red Hook."
+        "comments": "The quick service, food delivery, and delicious and price-friendly food are great! I can't recommend this place enough. I always have some delicious pho within 10 minutes of ordering."
       },
       {
-        "name": "Michelle",
-        "date": "October 26, 2016",
-        "rating": 5,
-        "comments": "Overall, a great try of New York BBQ. The restaurant décor is rustic with a good amount of seats to sit and enjoy the meal. I definitely would love to come back and try that monster of a beef rib!"
+        "name": "Katsuri P.",
+        "date": "May 19th, 2018",
+        "rating": 4,
+        "comments": "Quick launch and fast-friendly service. Chicken pho was not that good though. The chicken tested weird. Overall was good launch with friends. Thanks"
       },
       {
-        "name": "Ai-Mei",
-        "date": "October 26, 2016",
+        "name": "Ashley C.",
+        "date": "February 19th, 2018",
         "rating": 5,
-        "comments": "mmmmmm, what a gem this is in bklyn! I loveeee how soft their brisket is here. Their pork tacos are to die for, their different variety of ribs and lastly, their lamb is not gamey at all. Super wallet friendly for the amount they give you. I highly recommend this spot- after eating here, you can definitely walk over for Steve's key lime pies."
+        "comments": "Let me just say I was pleasantly surprised. They use quality meats and ingredients. Pho tastes so good and flavorful. The service was attentive and quick. Highly recommend!"
       }
     ]
   }, {
     "id": 7,
-    "name": "Superiority Burger",
-    "neighborhood": "Manhattan",
-    "photograph": "7.jpg",
-    "address": "430 E 9th St, New York, NY 10009",
+    "name": "Spice and Dice",
+    "neighborhood": "Towson",
+    "photograph": "spice-dice.jpg",
+    "address": "1220A E Joppa Rd #108, Towson, MD 21286",
     "latlng": {
-      "lat": 40.727397,
-      "lng": -73.983645
+      "lat": 39.396246,
+      "lng": -76.576666
     },
-    "cuisine_type": "American",
+    "cuisine_type": "Thai",
     "operating_hours": {
-      "Monday": "11:30 am - 10:00 pm",
-      "Tuesday": "Closed",
-      "Wednesday": "11:30 am - 10:00 pm",
-      "Thursday": "11:30 am - 10:00 pm",
-      "Friday": "11:30 am - 10:00 pm",
-      "Saturday": "11:30 am - 10:00 pm",
-      "Sunday": "11:30 am - 10:00 pm"
+      "Monday": "11:00 am - 9:15 pm",
+      "Tuesday": "11:00 am - 9:15 pm",
+      "Wednesday": "11:00 am - 9:15 pm",
+      "Thursday": "11:00 am - 9:15 pm",
+      "Friday": "11:00 am - 9:45 pm",
+      "Saturday": "11:00 am - 9:45 pm",
+      "Sunday": "11:00 am - 9:15 pm"
     },
-    "rating": 4,
+    "rating": 4.3,
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Brooks Headley’s tiny East Village cafe is so much more than a veggie burger spot — it's one of the best bang-for-your-buck restaurants in Lower Manhattan. Headley and his crew turn seasonal vegetables into delectable salads and riffs on American comfort food favorites. The specials menu changes daily, and the rest of the menu is constantly evolving. You can get a lot of food to eat here for under $15 per person."
-      },
-      {
-        "name": "Gabriel",
-        "date": "October 26, 2016",
+        "name": "Monica D.",
+        "date": "June 5th, 2018",
         "rating": 5,
-        "comments": "I was turned on to this place following the glowing NYT review. Its near my area of the city so I figured why not go? Man they weren't kidding, Superiority Burger is probably the best vegetarian experience I've ever had!"
+        "comments": "My absolute favorite place to eat!  I'm addicted to their Tom Yum Thai soup.  Perfection and you choose the meat...or not, and the type of noodle.  I'm vegetarian, so I get with just veggies or with tofu and not only am I happy, my pup drools and begs for any leftovers.  I love that in addition to the Thai tea that was my go to drink, they now have bubble teas!!!!  These are somewhat addictive to someone who is inclined to try them all.  My meat-eating man enjoys the Drunken Noodle and lots of their appetizers.  If you can go on a Tuesday, they have live music that just adds to the experience.  They also  do carryout so order if you can't stay.  You won't regret it!"
       },
       {
-        "name": "Shivi",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Great flavors and very satisfying. Craving a sandwich, I stopped by on a Friday night with a vegetarian friend. Super small location with just a few seats inside. Ambiance is a bit industrial, good is definitely much more sophisticated than the look of the place! Ordered the superiority burger anda side of potato salad. The potato salad was very light and tasted clean ( less mayo, lots of dill and some cucumber) -- refreshing for a humid summer night! Sandwich was surprisingly delicious - it is very small ( funny allusion to a White Castle burger) but it packs a punch! Not only are there layers of flavors ( amazing sauces) but the party itself had a great texture Ahmed flavor-- well done and so wonderful! Will definitely stop by again for an overall amazing burger/sandwich. Staff was super nice and accommodating but not out of the way friendly."
+        "name": "Steve B.",
+        "date": "May 19th, 2018",
+        "rating": 5,
+        "comments": "This place is fantastic! I tend to get vegetarian items, and I love spicy food. Their Currys with coconut milk are just fantastic. And they have music during the week sometimes, my hearing is rather sensitive so I asked the waitress to get placed away from the music, and she very gleefully complied. I’ve been back several times, and it’s always very friendly, courteous staff. Also, the great thing is about their menu, you can pretty much get any of the items with any kind of protein that you would like. So fish, chicken, shrimp, beef,tofu or all veggie. And many of their items can be prepared gluten-free or vegetarian. Lovely! As for spiciness, they have three levels: one, two or three. I always get three and I’m never disappointed."
+      },
+      {
+        "name": "Kathy R.",
+        "date": "May 28th, 2018",
+        "rating": 5,
+        "comments": "Good food. Good service. Have only gotten take out. Always delicious and large portions. Whole family loves it."
       }
     ]
   }, {
     "id": 8,
-    "name": "The Dutch",
-    "neighborhood": "Manhattan",
-    "photograph": "8.jpg",
-    "address": "131 Sullivan St, New York, NY 10012",
+    "name": "Birroteca",
+    "neighborhood": "Baltimore",
+    "photograph": "birroteca.jpg",
+    "address": "1520 Clipper Rd, Baltimore, MD 21211",
     "latlng": {
-      "lat": 40.726584,
-      "lng": -74.002082
+      "lat": 39.327562,
+      "lng": -76.639547
     },
-    "cuisine_type": "American",
-    "operating_hours": {
-      "Monday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Tuesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Wednesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Thursday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Friday": "11:30 am - 3:00 pm, 5:30 pm - 11:30 pm",
-      "Saturday": "10:00 am - 3:00 pm, 5:30 pm - 11:30 pm",
-      "Sunday": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
-    },
-    "rating": 4,
-    "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Over the last five years, The Dutch has turned into the quintessential American restaurant that chef Andrew Carmellini and partners Josh Pickard and Luke Ostrom sought to evoke when it first opened. It’s a great choice when you’re craving a steak, a burger, or oysters, and the menu always includes plentiful seafood options as well as pastas. The Dutch is now an indelible part of the Soho landscape."
-      },
-      {
-        "name": "Loren",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "I randomly came here on a Saturday night. I was pleasantly surprised with the food and the service. We had the calamari and the ceviche with avocado, and then the catfish. Oh! Then we had the banana soufflé for dessert with ice cream. It was all delicious and well put together. Would love to eat here again."
-      },
-      {
-        "name": "Lori",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Aside from the slightly claustrophobic dining area and the fact that you may have difficulty hearing your dining companion, I'd return to The Dutch without hesitation. The food is surprisingly well-executed and conceived, and our dinner service flowed smoothly without a hitch. Just make sure to get a reservation in advance, as I'm sure more than just a few other people will have the same idea."
-      }
-    ]
-  }, {
-    "id": 9,
-    "name": "Mu Ramen",
-    "neighborhood": "Queens",
-    "photograph": "9.jpg",
-    "address": "1209 Jackson Ave, Queens, NY 11101",
-    "latlng": {
-      "lat": 40.743797,
-      "lng": -73.950652
-    },
-    "cuisine_type": "Asian",
+    "cuisine_type": "Italian",
     "operating_hours": {
       "Monday": "5:00 pm - 10:00 pm",
       "Tuesday": "5:00 pm - 10:00 pm",
       "Wednesday": "5:00 pm - 10:00 pm",
       "Thursday": "5:00 pm - 10:00 pm",
       "Friday": "5:00 pm - 11:00 pm",
-      "Saturday": "5:00 pm - 11:00 pm",
-      "Sunday": "5:00 pm - 10:00 pm"
+      "Saturday": "11:00 am - 11:00 pm",
+      "Sunday": "11:00 am - 10:00 pm"
     },
-    "rating": 4,
+    "rating": 4.4,
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Joshua Smookler’s two-year-old ramen shop serves one of the best tonkotsu broths around. Beyond ramen, Mu also offers some high minded plates, like foie gras-stuffed chicken wings, as well as dry-aged Japanese Wagyu beef specials. Mu is just 10 short minutes away from Midtown via the 7-train."
+        "name": "Jocylyn C.",
+        "date": "June 13th, 2018",
+        "rating": 5,
+        "comments": "Wonderful and very kid friendly. We went for our first time tonight. The tables have a paper cover that can be drawn on, which was a nice bonus for the kids. The food was fresh, beautifully presented and delicious. The numerous staff we had were attentive and pleasant. We look forward to returning!"
       },
       {
-        "name": "Brittany",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Overall, I would definitely recommend this place if you enjoy thick curly noodles with a thick, intense broth.  If you don't there are still other options but I can't vouch for those."
+        "name": "Emily M.",
+        "date": "June 12th, 2018",
+        "rating": 3,
+        "comments": "We went to Birroteca on a Saturday evening. Our waitress was very nice and attentive to our table. Unfortunately I can't say I was impressed with our meal considering the prices and the many options for dinner in the area. We ordered the special salad which consisted of a small plate of spinach, a few strawberries and balsamic for $14. It was the size I would expect for a side salad and I am not someone who expects huge portions. We also ordered the spring risotto. It tasted fine but it was nothing spectacular and the portion was also very small for $22. My sister ordered a eggplant pizza which was good. My son's kids meal pizza was a good size and he enjoyed it. Our drinks were fine. I might come back for the pizza or during happy hour but I wouldn't waste my money on the dinner plates or salads as they are underwhelming and overpriced."
       },
       {
-        "name": "Sally",
-        "date": "October 26, 2016",
+        "name": "Daniel S.",
+        "date": "May 19th, 2018",
+        "rating": 5,
+        "comments": "Always a top notch experience at Birroteca. While it's not exactly sitting in the most attractive location next to the highway, once you are inside you won't care (and they have their own large free parking lot which is nice). The food here, especially the pizza, is always amazing. My personal favorite is the 'Duck Duck Goose'. The cocktails are also always excellent as well, cant say I've ever had a bad one there. You really can't go wrong with anything on the menu, from appetizers through desserts. Highly recommend."
+      }
+    ]
+  }, {
+    "id": 9,
+    "name": "THB",
+    "neighborhood": "Towson",
+    "photograph": "thb.jpg",
+    "address": "16 Allegheny Ave, Towson, MD 21204",
+    "latlng": {
+      "lat": 39.401894,
+      "lng": -76.603648
+    },
+    "cuisine_type": "Breakfast",
+    "operating_hours": {
+      "Monday": "6:00 am - 4:00 pm",
+      "Tuesday": "6:00 am - 4:00 pm",
+      "Wednesday": "6:00 am - 4:00 pm",
+      "Thursday": "6:00 am - 4:00 pm",
+      "Friday": "6:00 am - 4:00 pm",
+      "Saturday": "7:00 am - 4:00 pm",
+      "Sunday": "7:00 am - 4:00 pm"
+    },
+    "rating": 4.4,
+    "reviews": [{
+        "name": "Marissa S.",
+        "date": "March 19th, 2018",
+        "rating": 5,
+        "comments": "As a former New Yorker, I am incredibly picky about pizza and bagels. These bagels are some of the best to be found in MD. I have used this location for breakfast and lunch and catering options - and they never disappoint. Just double check to make sure you have everything before you leave if you have a large order. Though, even if you don't, they are always happy to fix the mistake! Friendly and quick service, and a favorite of every local college for which I've worked."
+      },
+      {
+        "name": "Jontathan C.",
+        "date": "April 19th, 2018",
         "rating": 4,
-        "comments": "One of the tastiest and most unique ramen places I've been to in NYC, but also the priciest. I think overall its worth the try. Not an everyday casual ramen shop though."
+        "comments": "A good bagel and breakfast sandwich shop. They are usually pretty crowded in the mornings but the line moves quickly and the food comes out fast. The bagels are good quality but not the absolute best."
+      },
+      {
+        "name": "Tammy B.",
+        "date": "May 19th, 2018",
+        "rating": 5,
+        "comments": "Great food, awesome service, and convenient location. Omelettes are huge and the bagels are fresh. Highly recommended!"
       }
     ]
   }, {
     "id": 10,
-    "name": "Casa Enrique",
-    "neighborhood": "Queens",
-    "photograph": "10.jpg",
-    "address": "5-48 49th Ave, Queens, NY 11101",
+    "name": "Andy Nelson's",
+    "neighborhood": "Cockeysville",
+    "photograph": "andy-nelsons.jpg",
+    "address": "11007 York Rd, Cockeysville, MD 21030",
     "latlng": {
-      "lat": 40.743394,
-      "lng": -73.954235
+      "lat": 39.486804,
+      "lng": -76.645994
     },
-    "cuisine_type": "Mexican",
+    "cuisine_type": "Barbecue",
     "operating_hours": {
-      "Monday": "5:00 pm - 12:00 am",
-      "Tuesday": "5:00 pm - 12:00 am",
-      "Wednesday": "5:00 pm - 12:00 am",
-      "Thursday": "5:00 pm - 12:00 am",
-      "Friday": "5:00 pm - 12:00 am",
-      "Saturday": "11:00 am - 12:00 am",
-      "Sunday": "11:00 am - 12:00 am"
+      "Monday": "10:00 am - 8:00 pm",
+      "Tuesday": "10:00 am - 8:00 pm",
+      "Wednesday": "10:00 am - 8:00 pm",
+      "Thursday": "10:00 am - 8:00 pm",
+      "Friday": "10:00 am - 8:00 pm",
+      "Saturday": "10:00 am - 8:00 pm",
+      "Sunday": "Closed"
     },
-    "rating": 3,
+    "rating": 4.7,
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 5,
-        "comments": "Head to this laid-back Long Island City restaurant for beef tongue tacos, chicken smothered in a heady mole sauce, and a monster crab tostada. New York's only Michelin-starred Mexican restaurant is an especially cool choice for lunch during the week or drinks after work. Eater critic Ryan Sutton awarded this restaurant two stars."
-      },
-      {
-        "name": "Rob",
-        "date": "October 26, 2016",
-        "rating": 5,
-        "comments": "The hype was real. Please go. Get the ceviche. And the tres leches. You're welcome"
-      },
-      {
-        "name": "Jason",
-        "date": "October 26, 2016",
+        "name": "Liz N.",
+        "date": "May 28th, 2018",
         "rating": 4,
-        "comments": "For a Michelin star restaurant, it's fairly priced and the food is fairly good. Started with a strawberry margarita which was good in flavor but not much alcohol. Had the chicken enchiladas with salsa verde and it was really good. Great balance in flavor and a good portion. Extra tasty with their hot sauces. My wife had the lamb but it was a bit too salty for our taste. Although, it was cooked very well and fell off the bone. The highlight of the night was the tres leches cake. Probably the best I've ever had to be honest. Not too sweet and very milky. Overall, one of my top 3 favorite Mexican in NY."
+        "comments": "Great food! This place is a little hole in the wall but has really good barbeque. I'm not sure if they don't have AC or if it was on the fritz but it was a little warm. The food more than made up for it though. Staff was very friendly as well. Highly recommend and will definitely go back!"
+      },
+      {
+        "name": "Andrea L.",
+        "date": "March 19th, 2018",
+        "rating": 5,
+        "comments": "Had lunch today with my nephew. I ordered 10 wings and he had the pulled pork sandwich express lunch with 2 sides (cornbread and beans).  Both were great! This is down home cooked babecue! Rustic seat yourself dining room. Very laid back. Super friendly staff. Great menu for all kinds of staple BBQ items and they cater as well. Definitely worth checking them out! I wish the music in the self seating area was a little lower in volume ... so we didn't have to talk so loud but all around great experience!"
+      },
+      {
+        "name": "Rich M.",
+        "date": "May 19th, 2018",
+        "rating": 4,
+        "comments": "The ribs were absolutely amazing ... meaty, juicy, smoky delicious! The pulled pork was very good  (vinegar dressed) and juicy. The chicken wing was moist and tasty. However, the chicken breast, while deliciously smoked, was a bit dry (I did arrive about an hour before closing). The sides, mac n cheese and bbq beans, were both good, but not nearly as amazing as the ribs!"
       }
     ]
   }]
