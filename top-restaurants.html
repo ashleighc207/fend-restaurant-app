@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="A fast, accessible, and offline ready app for restaurant reviews.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/img/favicon.png">
-    <title>Foodie </title>
-  </head>
-  <body>
-    <div class="container">
-            <div>
-        <header class="header">
-          <nav class="nav-bar">
-            <i class="fas fa-bars menu-icon"></i>
-            <h1 class="heading-one"><a href="/">Foodie <i class="fas fa-utensils"></i>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="A fast, accessible, and offline ready app for restaurant reviews.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <title>Foodie </title>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <header class="header">
+        <nav class="nav-bar">
+          <i class="fas fa-bars menu-icon"></i>
+          <h1 class="heading-one"><a href="/">Foodie <i class="fas fa-utensils"></i>
             </a></h1>
-          </nav>
-          <nav class="nav-links">
-            <a href="./about.html">About</a>
-            <span class="bullet">&bull;</span>
-            <a href="./top-restaurants.html">Top Restaurants</a>
-            <span class="bullet">&bull;</span>
-            <a href="./social.html">Social</a>
-          </nav>
-        </header>
-        <div class="filter-container">
-          <div class="filter-options">
-              <h2 class="heading-two">Filter Results</h2>
-              <select id="neighborhoods-select" class="option" name="neighborhoods" onchange="updateRestaurants()">
+        </nav>
+        <nav class="nav-links">
+          <a href="./about.html">About</a>
+          <span class="bullet">&bull;</span>
+          <a href="./top-restaurants.html">Restaurants</a>
+          <span class="bullet">&bull;</span>
+          <a href="./social.html">Social</a>
+        </nav>
+      </header>
+      <div class="filter-container">
+        <div class="filter-options">
+          <h2 class="heading-two">Filter Results</h2>
+          <select id="neighborhoods-select" class="option" name="neighborhoods" onchange="updateRestaurants()">
                 <option value="all">Neighborhood</option>
               </select>
-              <select id="cuisines-select" class="option" name="cuisines" onchange="updateRestaurants()">
+          <select id="cuisines-select" class="option" name="cuisines" onchange="updateRestaurants()">
                 <option value="all">Cuisine</option>
               </select>
-            </div>
         </div>
-        <section id="map-container">
-            <div id="map"></div>
-          </section>
-        <main id="maincontent">
-          <section class="restaurants-container">
-            <div id="restaurants-list">
-            </div>
+      </div>
+      <section id="map-container">
+        <div id="map"></div>
+      </section>
+      <main id="maincontent">
+        <section class="restaurants-container">
+          <div id="restaurants-list">
+          </div>
         </section>
       </main>
     </div>
@@ -60,4 +62,5 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_M50DL3o9xtEIpXLFipd-SiquqgqVJuA&libraries=places&callback=initMap"></script>
   </div>
 </body>
+
 </html>
