@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="A fast, accessible, and offline ready app for restaurant reviews.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/img/favicon.png">
-    <title>Foodie</title>
-  </head>
-  <body class="inside">
-    <div class="container">
-      <div>
-        <header class="header">
-          <nav class="nav-bar-restaurant">
-            <a href="/" class="link"><i class="fas fa-arrow-left back-icon"></i></a>
-            <h1 class="heading-one"><a href="/">Foodie <i class="fas fa-utensils"></i></a></h1>
-          </nav>
-          <ul class="nav-links" id="breadcrumb">
-            <li><a href="/" >Home</a></li>
-            <li class="text-accent">/</li>
-          </ul>
-        </header>
-        <main id="maincontent">
-          <section id="map-container">
-            <div id="map"></div>
-          </section>
-          <section id="restaurant-container">
-            <h1 class="heading-one" id="restaurant-name"></h1>
-            <img id="restaurant-img">
-            <div class="info-item">
-              <span class="title">Rating:</span><span id="restaurant-rating"></span>
-            </div>
-            <div class="info-item">
-              <span class="title">Cuisine:</span><span id="restaurant-cuisine"></span>
-            </div>
-            <div class="info-item">
-              <span class="title">Address:</span><span id="restaurant-address"></span>
-            </div>
-            <div class="info-item">
-              <span class="heading-two">Hours:</span><table id="restaurant-hours">
-            </div>         
-            </table>
-          </section>
-          <section id="reviews-container">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="A fast, accessible, and offline ready app for restaurant reviews.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <title>Foodie</title>
+</head>
+
+<body class="inside">
+  <div class="container">
+    <div>
+      <header class="header">
+        <nav class="nav-bar-restaurant">
+          <a href="/" class="link"><i class="fas fa-arrow-left back-icon"></i></a>
+          <h1 class="heading-one"><a href="/">Foodie <i class="fas fa-utensils"></i></a></h1>
+        </nav>
+        <ul class="nav-links" id="breadcrumb">
+          <li><a href="/">Home</a></li>
+          <li class="text-accent">/</li>
+        </ul>
+      </header>
+      <main class="maincontent">
+        <section id="map-container">
+          <div id="map"></div>
+        </section>
+        <section id="restaurant-container">
+          <h1 class="heading-one" id="restaurant-name"></h1>
+          <img id="restaurant-img">
+          <div class="info-item">
+            <span class="title">Rating:</span><span id="restaurant-rating"></span>
+          </div>
+          <div class="info-item">
+            <span class="title">Cuisine:</span><span id="restaurant-cuisine"></span>
+          </div>
+          <div class="info-item">
+            <span class="title">Address:</span><span id="restaurant-address"></span>
+          </div>
+          <div class="info-item">
+            <span class="heading-two">Hours:</span>
+            <table id="restaurant-hours">
+          </div>
+          </table>
+        </section>
+        <section id="reviews-container">
           <ul id="reviews-list"></ul>
         </section>
       </main>
@@ -61,4 +64,5 @@
   <script type="text/javascript" src="js/restaurant_info.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_M50DL3o9xtEIpXLFipd-SiquqgqVJuA&libraries=places&callback=initMap"></script>
 </body>
+
 </html>
