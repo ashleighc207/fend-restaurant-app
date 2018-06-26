@@ -4,7 +4,7 @@
     "name": "Sushi King",
     "rating": 4.7,
     "neighborhood": "Columbia",
-    "photograph": "sushi-king.jpg",
+    "photograph": "./sushi-king.jpg",
     "address": "6490 Dobbin Rd, Columbia, MD 21045",
     "latlng": {
       "lat": 39.192702,
@@ -43,7 +43,7 @@
     "id": 2,
     "name": "Royal Taj",
     "neighborhood": "Columbia",
-    "photograph": "royal-taj.jpg",
+    "photograph": "./royal-taj.jpg",
     "address": "8335 Benson Dr, Columbia, MD 21045",
     "latlng": {
       "lat": 39.186272,
@@ -83,7 +83,7 @@
     "id": 3,
     "name": "Honey Pig",
     "neighborhood": "Ellicott City",
-    "photograph": "honey-pig.jpg",
+    "photograph": "./honey-pig.jpg",
     "address": "10045 Baltimore National Pike, Ellicott City, MD 21042",
     "latlng": {
       "lat": 39.278245,
@@ -123,7 +123,7 @@
     "id": 4,
     "name": "Gino's Burgers and Chicken",
     "neighborhood": "Towson",
-    "photograph": "ginos.jpg",
+    "photograph": "./ginos.jpg",
     "address": "8600 Lasalle Rd #250C, Towson, MD 21286",
     "latlng": {
       "lat": 39.395838,
@@ -163,7 +163,7 @@
     "id": 5,
     "name": "Pizza Sauce",
     "neighborhood": "Parkville",
-    "photograph": "pizza-sauce.jpg",
+    "photograph": "./pizza-sauce.jpg",
     "address": "3301 E Joppa Rd, Parkville, MD 21234",
     "latlng": {
       "lat": 39.394529,
@@ -203,7 +203,7 @@
     "id": 6,
     "name": "Pho Pasteur",
     "neighborhood": "Catonsville",
-    "photograph": "pho-pasteur.jpg",
+    "photograph": "./pho-pasteur.jpg",
     "address": "710 N Rolling Rd, Catonsville, MD 21228",
     "latlng": {
       "lat": 39.282360,
@@ -243,7 +243,7 @@
     "id": 7,
     "name": "Spice and Dice",
     "neighborhood": "Towson",
-    "photograph": "spice-dice.jpg",
+    "photograph": "./spice-dice.jpg",
     "address": "1220A E Joppa Rd #108, Towson, MD 21286",
     "latlng": {
       "lat": 39.396246,
@@ -283,7 +283,7 @@
     "id": 8,
     "name": "Birroteca",
     "neighborhood": "Baltimore",
-    "photograph": "birroteca.jpg",
+    "photograph": "./birroteca.jpg",
     "address": "1520 Clipper Rd, Baltimore, MD 21211",
     "latlng": {
       "lat": 39.327562,
@@ -323,7 +323,7 @@
     "id": 9,
     "name": "THB",
     "neighborhood": "Towson",
-    "photograph": "thb.jpg",
+    "photograph": "./thb.jpg",
     "address": "16 Allegheny Ave, Towson, MD 21204",
     "latlng": {
       "lat": 39.401894,
@@ -363,7 +363,7 @@
     "id": 10,
     "name": "Andy Nelson's",
     "neighborhood": "Cockeysville",
-    "photograph": "andy-nelsons.jpg",
+    "photograph": "./andy-nelsons.jpg",
     "address": "11007 York Rd, Cockeysville, MD 21030",
     "latlng": {
       "lat": 39.486804,
