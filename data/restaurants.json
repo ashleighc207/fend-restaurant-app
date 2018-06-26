@@ -4,7 +4,7 @@
     "name": "Sushi King",
     "rating": 4.7,
     "neighborhood": "Columbia",
-    "photograph": "./sushi-king.jpg",
+    "photograph": "./img/sushi-king.jpg",
     "address": "6490 Dobbin Rd, Columbia, MD 21045",
     "latlng": {
       "lat": 39.192702,
