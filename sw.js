@@ -4,21 +4,22 @@ self.addEventListener('install', function (event) {
 	event.waitUntil(caches.open(staticCacheName).then(function (cache) {
 		return cache.addAll([
 			'/',
-			'/index.html',
-			'js/main.js',
-			'js/index.js',
-			'css/styles.css',
-			'img/sushi-king.jpg',
-			'img/ginos.jpg',
-			'img/honey-pig.jpg',
-			'img/royal-taj.jpg',
-			'img/pizza-sauce.jpg',
-			'img/pho-pasteur.jpg',
-			'img/spice-dice.jpg',
-			'img/birroteca.jpg',
-			'img/andy-nelsons.jpg',
-			'img/thb.jpg',
-			'img/favicon.png'
+			'./',
+			'./index.html',
+			'./js/main.js',
+			'./js/index.js',
+			'./css/styles.css',
+			'./img/sushi-king.jpg',
+			'./img/ginos.jpg',
+			'./img/honey-pig.jpg',
+			'./img/royal-taj.jpg',
+			'./img/pizza-sauce.jpg',
+			'./img/pho-pasteur.jpg',
+			'./img/spice-dice.jpg',
+			'./img/birroteca.jpg',
+			'./img/andy-nelsons.jpg',
+			'./img/thb.jpg',
+			'./img/favicon.png'
 		]).catch(function (err) {
 			console.log("Error: ", err);
 		});
