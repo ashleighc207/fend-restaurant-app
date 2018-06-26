@@ -5,21 +5,22 @@ self.addEventListener('install', function (event) {
 		return cache.addAll([
 			'/',
 			'/fend-restaurant-app/',
-			'./index.html',
-			'./js/main.js',
-			'./js/index.js',
-			'./css/styles.css',
-			'./img/sushi-king.jpg',
-			'./img/ginos.jpg',
-			'./img/honey-pig.jpg',
-			'./img/royal-taj.jpg',
-			'./img/pizza-sauce.jpg',
-			'./img/pho-pasteur.jpg',
-			'./img/spice-dice.jpg',
-			'./img/birroteca.jpg',
-			'./img/andy-nelsons.jpg',
-			'./img/thb.jpg',
-			'./img/favicon.png'
+			'/fend-restaurant-app/index.html',
+			'/index.html',
+			'/js/main.js',
+			'/js/index.js',
+			'/css/styles.css',
+			'/img/sushi-king.jpg',
+			'/img/ginos.jpg',
+			'/img/honey-pig.jpg',
+			'/img/royal-taj.jpg',
+			'/img/pizza-sauce.jpg',
+			'/img/pho-pasteur.jpg',
+			'/img/spice-dice.jpg',
+			'/img/birroteca.jpg',
+			'/img/andy-nelsons.jpg',
+			'/img/thb.jpg',
+			'/img/favicon.png'
 		]).catch(function (err) {
 			console.log("Error: ", err);
 		});
