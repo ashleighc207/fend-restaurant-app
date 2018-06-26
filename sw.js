@@ -1,4 +1,4 @@
-var staticCacheName = 'foodie-cache-v4';
+var staticCacheName = 'foodie-cache-v5';
 
 self.addEventListener('install', function (event) {
 	event.waitUntil(caches.open(staticCacheName).then(function (cache) {
