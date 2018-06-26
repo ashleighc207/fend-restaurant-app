@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 8080; // Change this to your server port
-    return `https://github.com/ashleighc207/fend-restaurant-app/blob/master/data/restaurants.json`;
+    return `https://ashleighc207.github.io/fend-restaurant-app/data/restaurants.json`;
   }
 
   /**
